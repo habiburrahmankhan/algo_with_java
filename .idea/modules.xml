@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/codingblock.iml" filepath="$PROJECT_DIR$/codingblock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mywork/java/Mywork.iml" filepath="$PROJECT_DIR$/Mywork/java/Mywork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mywork/Mywork1.iml" filepath="$PROJECT_DIR$/Mywork/Mywork1.iml" />
     </modules>
   </component>
 </project>

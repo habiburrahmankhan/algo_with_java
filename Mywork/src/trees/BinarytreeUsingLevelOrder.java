@@ -148,26 +148,25 @@ public class BinarytreeUsingLevelOrder {
         Top_View(node.left , level -1 , hmap ,minmax);
         Top_View(node.right , level + 1 , hmap ,minmax);
     }
-
     public void Bottom_View()
     {
 
-        HashMap<Integer , Stack<Node>> hmap = new HashMap<>();
+        HashMap<Integer , Queue<Node>> hmap = new HashMap<>();
         int minmax[] = new int[2];
-        Bottom_View(this.root , 0 ,hmap ,minmax);
+        Top_View(this.root , 0 ,hmap ,minmax);
         System.out.println();
-        for (Stack<Node> nd:hmap.values()) {
-            for (Node no:nd) {
-                System.out.print( no.data + "   ");
-            }
-            System.out.println();
-        }
-        System.out.println( minmax[0] +  "   " + minmax[1]);
+//        for (Queue<Node> nd:hmap.values()) {
+//            for (Node no:nd) {
+//                System.out.print( no.data + "   ");
+//            }
+//            System.out.println();
+//        }
+//        System.out.println( minmax[0] +  "   " + minmax[1]);
         for (int i =minmax[0] +1; i <minmax[1] ; i++) {
             if (hmap.containsKey(i))
             {
-                Stack<Node> nd = hmap.get(i);
-                System.out.print(nd.pop().data +  " ");
+                Queue<Node> nd = hmap.get(i);
+                System.out.print(nd.peek() +  " ");
             }
 
         }
@@ -175,7 +174,7 @@ public class BinarytreeUsingLevelOrder {
 
     }
 
-    private void Bottom_View(Node node, int level, HashMap<Integer, Stack<Node>> hmap , int[] minmax) {
+    private void Bottom_View(Node node, int level, HashMap<Integer, Queue<Node>> hmap , int[] minmax) {
         if (node==null)
         {
             if (minmax[1] < level)
@@ -191,21 +190,78 @@ public class BinarytreeUsingLevelOrder {
 
         if (hmap.containsKey(level))
         {
-            Stack<Node> nd = hmap.get(level);
+            Queue<Node> nd = hmap.get(level);
             nd.add(node);
             hmap.put(level ,nd);
         }
         else
         {
-            Stack<Node> stack = new Stack<>();
-            stack.push(node);
-            hmap.put(level ,stack);
+            Queue<Node> queue = new LinkedList<>();
+            queue.add(node);
+            hmap.put(level ,queue);
         }
 
 
         Bottom_View(node.left , level -1 , hmap ,minmax);
         Bottom_View(node.right , level + 1 , hmap ,minmax);
     }
+//    public void Bottom_View()
+//    {
+//
+//        HashMap<Integer , Stack<Node>> hmap = new HashMap<>();
+//        int minmax[] = new int[2];
+//        Bottom_View(this.root , 0 ,hmap ,minmax);
+//        System.out.println();
+//        for (Stack<Node> nd:hmap.values()) {
+//            for (Node no:nd) {
+//                System.out.print( no.data + "   ");
+//            }
+//            System.out.println();
+//        }
+//        System.out.println( minmax[0] +  "   " + minmax[1]);
+//        for (int i =minmax[0] +1; i <minmax[1] ; i++) {
+//            if (hmap.containsKey(i))
+//            {
+//                Stack<Node> nd = hmap.get(i);
+//                System.out.print(nd.pop().data +  " ");
+//            }
+//
+//        }
+//        System.out.println();
+//
+//    }
+//
+//    private void Bottom_View(Node node, int level, HashMap<Integer, Stack<Node>> hmap , int[] minmax) {
+//        if (node==null)
+//        {
+//            if (minmax[1] < level)
+//            {
+//                minmax[1] = level ;
+//            }
+//            if (minmax[0] > level)
+//            {
+//                minmax[0] = level ;
+//            }
+//            return;
+//        }
+//
+//        if (hmap.containsKey(level))
+//        {
+//            Stack<Node> nd = hmap.get(level);
+//            nd.add(node);
+//            hmap.put(level ,nd);
+//        }
+//        else
+//        {
+//            Stack<Node> stack = new Stack<>();
+//            stack.push(node);
+//            hmap.put(level ,stack);
+//        }
+//
+//
+//        Bottom_View(node.left , level -1 , hmap ,minmax);
+//        Bottom_View(node.right , level + 1 , hmap ,minmax);
+//    }
 
     public void display()
     {

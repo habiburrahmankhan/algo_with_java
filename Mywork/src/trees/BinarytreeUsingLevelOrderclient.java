@@ -8,13 +8,15 @@ public class BinarytreeUsingLevelOrderclient {
         BinarytreeUsingLevelOrder bt = new BinarytreeUsingLevelOrder();
         bt.takeInput();
         bt.display();
-        bt.Tree_Right_View();
+      //  bt.Tree_Right_View();
         System.out.println();
-        bt.Tree_Left_View();
+       // bt.Tree_Left_View();
         System.out.println();
         bt.Top_View();
         System.out.println();
         bt.Bottom_View();
+
+
 
     }
 }
