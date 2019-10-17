@@ -7,7 +7,8 @@ public class Quicksortalgo {
     public static void main(String[] args) {
         Scanner s =new Scanner(System.in) ;
         int arr[]={5,4,6,3,2} ;
-        quicksort(arr,0,arr.length );
+
+         quicksort(arr,0,arr.length );
         System.out.println(Arrays.toString(arr));
     }
     public static void quicksort(int arr[] ,int start , int end )

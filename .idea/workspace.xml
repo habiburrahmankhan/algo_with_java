@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5142f7-7d65-4a36-97f8-7476c622f11a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mywork/src/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/graph/graphClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/DIVISIBLE_SUBARRAYS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Length_Biotonic_Subsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/The_Subset_Sum_To_Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Tilling_Problem_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Ugly_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/tries/Tries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mywork/src/tries/triesclient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Class_Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Fibonacci_Pattern_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Knapsack_0_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/LCS_with_3_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Longest_Common_Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Circles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Merge_sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Mike_and_HashTrick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/Quick_Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mywork/src/hackerblock/binarysearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mywork1/hackerblock/binarysearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mywork/src/hackerblock/sumlength.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mywork/src/hackerblock/sumlength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mywork/src/lecture_11/Quicksortalgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mywork/src/lecture_11/Quicksortalgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mywork1/hackerblock/sumlength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mywork1/hackerblock/sumlength.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +27,68 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/The_Subset_Sum_To_Target.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Fibonacci_Pattern_.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="4" selection-start-line="5" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Mike_and_HashTrick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="9" selection-start-line="5" selection-start-column="3" selection-end-line="52" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Circles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/sumlength.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Class_Assignment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Quick_Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +103,14 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>weight</find>
+      <find>int</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>value</replace>
+      <replace>long</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -72,20 +135,30 @@
         <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Ugly_Numbers.java" />
         <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Length_Biotonic_Subsequence.java" />
         <option value="$PROJECT_DIR$/Mywork/src/hackerblock/The_Subset_Sum_To_Target.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Knapsack_0_1.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Longest_Common_Subsequence.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/LCS_with_3_Strings.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Fibonacci_Pattern_.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Mike_and_HashTrick.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Circles.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/sumlength.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Class_Assignment.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Merge_sort.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/lecture_11/Quicksortalgo.java" />
+        <option value="$PROJECT_DIR$/Mywork/src/hackerblock/Quick_Sort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,36 +175,20 @@
               <item name="Algo_with_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mywork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algo_with_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mywork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hackerblock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algo_with_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mywork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_19" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algo_with_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mywork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algo_with_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mywork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_21" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,9 +211,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.The_Subset_Sum_To_Target">
-    <configuration name="Maximum_Length_Biotonic_Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerblock.Maximum_Length_Biotonic_Subsequence" />
+  <component name="RunManager" selected="Application.Quick_Sort">
+    <configuration name="Class_Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerblock.Class_Assignment" />
       <module name="Mywork1" />
       <extension name="coverage">
         <pattern>
@@ -168,8 +225,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="The_Subset_Sum_To_Target" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerblock.The_Subset_Sum_To_Target" />
+    <configuration name="Maximum_Circles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerblock.Maximum_Circles" />
       <module name="Mywork1" />
       <extension name="coverage">
         <pattern>
@@ -181,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tilling_Problem_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerblock.Tilling_Problem_II" />
+    <configuration name="Merge_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerblock.Merge_sort" />
       <module name="Mywork1" />
       <extension name="coverage">
         <pattern>
@@ -194,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ugly_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerblock.Ugly_Numbers" />
+    <configuration name="Mike_and_HashTrick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerblock.Mike_and_HashTrick" />
       <module name="Mywork1" />
       <extension name="coverage">
         <pattern>
@@ -207,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="graphClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.graphClient" />
+    <configuration name="Quick_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerblock.Quick_Sort" />
       <module name="Mywork1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="hackerblock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.The_Subset_Sum_To_Target" />
-        <item itemvalue="Application.Maximum_Length_Biotonic_Subsequence" />
-        <item itemvalue="Application.Ugly_Numbers" />
-        <item itemvalue="Application.graphClient" />
-        <item itemvalue="Application.Tilling_Problem_II" />
+        <item itemvalue="Application.Quick_Sort" />
+        <item itemvalue="Application.Merge_sort" />
+        <item itemvalue="Application.Class_Assignment" />
+        <item itemvalue="Application.Maximum_Circles" />
+        <item itemvalue="Application.Mike_and_HashTrick" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +304,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2020757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22649573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,15 +313,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2887755" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37346938" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -323,6 +380,18 @@
           <line>19</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mywork/src/hackerblock/Mike_and_HashTrick.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Circles.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -544,10 +613,181 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Knapsack_0_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Longest_Common_Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/LCS_with_3_Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/assignment4/row_wiseprint2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/assignment6/patternrec2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/assignment6/patternrecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/assignment6/reversearrayrec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/assignment6/selectionsortrec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/assignment6/invertedarrayrec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/The_Subset_Sum_To_Target.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="475">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/lecture_10/mergesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/sumofarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/linkedlistassignment/linkedlistclient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/linkedlistassignment/bubblesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Merge_sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Fibonacci_Pattern_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="5" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Mike_and_HashTrick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="9" selection-start-line="5" selection-start-column="3" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Maximum_Circles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/sumlength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Class_Assignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/lecture_11/Quicksortalgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mywork/src/hackerblock/Quick_Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
