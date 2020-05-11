@@ -1,11 +1,14 @@
 package hackerblock;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class base17
 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in) ;
+
         String str  =s.next();
         base17(str) ;
 

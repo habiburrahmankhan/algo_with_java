@@ -41,7 +41,6 @@ public class hashmapp {
                  freq.put(ch,1);
              }
         }
-        
        return freq;
     }
 

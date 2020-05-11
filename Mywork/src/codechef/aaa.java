@@ -9,15 +9,23 @@ public class aaa {
         public static void main (String[] args) throws java.lang.Exception
         {
             Scanner in = new Scanner(System.in);
-            int t = in.nextInt();
-            for (int i = 0; i < t; i++) {
-                int ar[] = new int[6];
-                for (int j = 0; j < 6; j++) {
-                    ar[j] = in.nextInt();
-                }
-                Sort(ar);
-                CheckFair(ar);
+            StringBuilder sb = new StringBuilder("ffff");
+            StringBuilder sb1 = new StringBuilder("ffff");
+            System.out.println(sb.equals(sb1));
+            if(sb.equals(sb1))
+            {
+                System.out.println("ghhhhohoh");
             }
+//            int t = in.nextInt();
+//
+//            for (int i = 0; i < t; i++) {
+//                int ar[] = new int[6];
+//                for (int j = 0; j < 6; j++) {
+//                    ar[j] = in.nextInt();
+//                }
+//                Sort(ar);
+//                CheckFair(ar);
+//            }
         }
 
         public static void Sort(int[] ar) {
@@ -35,6 +43,9 @@ public class aaa {
             int temp = ar[i];
             ar[i] = ar[j];
             ar[j] = temp;
+
+
+
         }
 
         public static void CheckFair(int[] ar) {

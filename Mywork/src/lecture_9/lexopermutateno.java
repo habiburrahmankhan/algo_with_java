@@ -2,7 +2,7 @@ package lecture_9;
 
 public class lexopermutateno {
     public static void main(String[] args) {
-        lexodictono(120,0);
+        lexodictono(100,0);
     }
 
 

@@ -9,36 +9,32 @@ public class DIVISIBLE_SUBARRAYS {
         int test = s.nextInt();
         for (int i = 0; i < test; i++) {
             int n = s.nextInt();
-            int arr[] = new  int[n] ;
-            for (int j = 0; j <arr.length ; j++) {
+            long arr[] = new  long[1000005] ;
+            for (int j = 0; j <n; j++) {
                 arr[j] =s.nextInt();
             }
-            System.out.println(subarray(arr));
+            System.out.println(subarray(arr ,n));
         }
     }
 
-    public static int subarray(int arr[] )
+    public static long subarray(long arr[] ,int n)
     {
-        int arrsum[] = new int[arr.length];
-        int count=0 ,sum=0 ;
-        for (int i = 0; i <arr.length ; i++) {
-              sum+=arr[i];
-              arrsum[i]= sum ;
-            }
-       // System.out.println(Arrays.toString(arrsum));
-        for (int i = arr.length -1; i >=0 ; i--) {
-            for (int j = i-1; j>=0 ; j--) {
-                if ((arrsum[i] - arrsum[j])%arr.length ==0)
-                {
-                    count++ ;
-                }
-            }
-            if (arrsum[i]%arr.length==0)
-            {
-                count++;
-            }
-
+        long freq[] = new long[1000005];
+        long sum=0 ;
+        freq[0]=1;
+        for (int i = 0; i <n; i++) {
+            sum+=arr[i-1];
+            sum =sum%n;
+            sum=(sum+n)%n;
+            freq[(int)sum]++;
         }
-        return count ;
+     //   System.out.println(Arrays.toString(arrsum));
+
+     //   System.out.println(Arrays.toString(freq));
+        long ans = 0 ;
+        for (int i = 0; i <n ; i++) {
+            ans +=(freq[i]*(freq[i] -1))/2;
+        }
+        return  ans;
     }
 }

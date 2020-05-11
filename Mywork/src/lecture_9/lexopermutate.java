@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class lexopermutate {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(freq("aabbcc")));
-        String line="aab" ;
+        System.out.println(Arrays.toString(freq("caba")));
+        String line="caba" ;
         int arr1[] = freq(line) ;
         lexo("" , line.length() , arr1);
     }

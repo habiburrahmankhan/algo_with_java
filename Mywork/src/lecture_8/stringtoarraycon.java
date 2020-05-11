@@ -12,6 +12,7 @@ public class stringtoarraycon {
         System.out.println("enter the digit");
         int n=s.nextInt() ;
         strtoarr(arr , n);
+        
     }
     public static void strtoarr(String arr[] ,int n)
     {
